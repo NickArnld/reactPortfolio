@@ -1,0 +1,10 @@
+.arrowDiv{
+    cursor: pointer;
+}
+.arrowText{
+    color: white;
+    margin: 0;
+}
+.arrow{
+    height: 80px;
+}

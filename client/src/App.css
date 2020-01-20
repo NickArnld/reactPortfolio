@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 2000px;
 }
 
 .App-logo {
@@ -35,4 +36,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#logo{
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+
+#arrow1{
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
+
+#arrow2{
+  position: absolute;
+  top: 180%;
+  left: 45%;
+}
+
+#aboutDiv{
+  position: absolute;
+  top: 120%;
+  width: 100%;
+}
+
+#aboutDiv h1{
+  color: white;
+}
+
+#projectDiv{
+  position: absolute;
+  top: 250%;
+  width: 100%;
+  
+}
+
+#projectDiv h1{
+  color: white;
 }

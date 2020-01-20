@@ -1,0 +1,15 @@
+#contactBar{
+    width: 60px;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-style: solid;
+    border-color: black;
+}
+.cBox{
+    margin: 5px 5px;
+}
+.cBox img{
+    height: 50px;
+}
