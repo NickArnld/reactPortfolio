@@ -9,11 +9,13 @@ class SmallNav extends Component {
     state = {
     }
     render() {
-      return <div id='contactBar'>
-        <div className='cBox' href='#'> <img src={linkLogo} /> </div>
-        <div className='cBox' href='#'> <img src={gitLogo} /> </div>
-        <div className='cBox' href='#'> <img src={emailLogo} /> </div>
-      </div>;
+      return <>
+      <div id='contactBar'>
+        <div id='linkBox' className='cBox'> <a href='https://www.linkedin.com/in/nicholas-arnold-85082181/'><h4>Linkedin</h4><img src={linkLogo} /> </a> </div>
+        <div id='gitBox' className='cBox'> <a href='https://github.com/NickArnld'><h4>Github</h4><img src={gitLogo} /> </a></div>
+        <div id='emailBox' className='cBox'> <a href='mailto:nick.arnold.dev@gmail.com'><h4>Email</h4><img src={emailLogo} /> </a></div>
+      </div>
+      </>;
     }
 }
 export default SmallNav;
