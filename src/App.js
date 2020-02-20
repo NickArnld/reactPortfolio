@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import ContactBar from './components/ContactBar';
 import DownArrow from './components/DownArrow';
 import PContainer from './components/ProjectContainer';
